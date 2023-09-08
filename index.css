@@ -297,8 +297,13 @@ font-size: 35px;
 
 
 /* Style for the title */
-.container h2 {
+.container h2{
   font-size: 28px;
+ 
+}
+
+.container p{
+  max-width: 350px;
 }
 /* Define the grid layout */
 .image-grid {
@@ -350,7 +355,7 @@ font-size: 35px;
   border-radius: 10px; /* Rounded corners */
   transition: background-color 0.3s ease; /* Smooth hover effect */
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   font-weight: 500;
 }
 
