@@ -96,7 +96,7 @@ border-bottom: 4px solid black; */
 }
   
   .logo {
-    width: 120px;
+    width: 140px;
     height: 70px;
     margin-right: 0px;
     position: relative;
@@ -282,6 +282,85 @@ font-size: 35px;
   position: relative;
   top: -10px;
  }
+
+
+
+ .container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+ 
+}
+
+
+
+/* Style for the title */
+.container h2 {
+  font-size: 28px;
+}
+/* Define the grid layout */
+.image-grid {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+}
+
+.grid-item img:hover{
+  transform: translateY(-10px) ;
+  
+}
+
+/* Style for each grid item */
+.grid-item {
+  text-align: center;
+}
+
+/* Style for the images */
+.grid-item img {
+  max-width: 300px;
+  height: auto;
+  transition: .2s;
+}
+
+/* Style for the headings and paragraphs */
+.grid-item h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.grid-item p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Style for the link */
+/* ... (previous styles) ... */
+
+/* Style for the link buttons */
+.grid-item a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: transparent; /* Button background color */
+  color: black; /* Button text color */
+  border: 3px solid black;
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.grid-item a:hover {
+  background-color: black; /* Darker color on hover */
+  color: white;
+  border: 3px solid transparent;
+}
+
+
 
 
 .feedback{
@@ -654,6 +733,13 @@ background: black;
 .qr{
 display: none;
 }
+.image-grid {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2px;
+}
+
 
 .hero-section{
 position: relative;
@@ -1073,6 +1159,12 @@ footer {
 
   }
   
+  .image-grid {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2px;
+  }
   .navigation {
     flex-grow: 1;
   }
@@ -1522,6 +1614,13 @@ body, ul{
   font-family: poppins
 }
 
+
+.image-grid {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2px;
+}
 
 
   header {
